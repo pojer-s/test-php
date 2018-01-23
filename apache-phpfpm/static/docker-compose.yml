@@ -1,0 +1,7 @@
+version: "3"
+services:
+    apache-static:
+        build: .
+        image: apache-static
+        ports:
+        - "80:80"
